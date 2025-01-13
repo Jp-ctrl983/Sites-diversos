@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<link rel="stylesheet" href="../Tela de Login/estilo/style.css">
+<link rel="stylesheet" href="../Tela de Login/estilo/media queire.css">
+
+     <title>Tela de Login</title>
+   </head>
+  <body>
+    <main>
+        <section id="login">
+            <div id="imagem"><!--aqui tem img--></div>
+
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo novamente para acessar sua conta e fezer Login.</p>
+
+              <form action="login.php" method="post" autocomplete="on">
+
+                <div class="campo">
+
+                  <i class="material-symbols-outlined">account_circle</i>
+                    <input type="email" name="ilogin" id="login" placeholder="Seu email" autocapitalize="email" required maxlength="30" minlength="8">
+                  <label for="ilogin">Login</label>
+
+                </div>
+
+                <div class="campo">
+                  <i class="material-symbols-outlined">vpn_key</i>
+                     <input type="password" name="isenha" id="senha" placeholder="Sua Senha" autocomplete="current-password" required maxlength="16" minlength="4">
+                  <label for="isenha">Senha</label>
+
+                </div>
+
+                <input type="submit" value="Login">
+
+                <a class="botom" href="#">Esqueci a Senha
+                  <i class="material-symbols-outlined">mail</i>
+                </a>
+                
+              </form>
+            </div>
+        </section>
+    </main>
+ </body>
+</html>

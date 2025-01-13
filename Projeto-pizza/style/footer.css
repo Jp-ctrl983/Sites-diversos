@@ -1,0 +1,77 @@
+.contact {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #a52a2a;
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    max-width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contact_h2 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-indent: 2px;
+    background-color: #ffe0e062;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.button_contact{
+    min-width: 150px;
+    max-width: 100px;
+    text-align: center;
+    display: block;
+    background-color: #a52a2a;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 9px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px;
+    margin: auto;
+}
+
+.about {
+    max-width: 600px;
+    padding: 10px;
+    background-color: #ffe0e062;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.sobre {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.enviarContato{
+    margin-top: 15px;
+}
+
+.p1 {
+    text-indent: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+

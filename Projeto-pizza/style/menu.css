@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 100vw;
+    background-color: hsla(0, 0%, 100%, 0.137);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363); 
+}
+
+.menu {
+    cursor: pointer;
+    margin: 1px;
+}
+
+menu#item {
+    width: auto; /* Ajusta automaticamente ao conteúdo */
+    position: absolute; /* Posiciona o menu em relação ao elemento pai ou ao body */
+    top: 59px; /* Ajuste isso para a distância abaixo do botão hambúrguer */
+    left: 2px; 
+    background: #fff; 
+    padding: 0px;
+    margin: 0px
+}
+
+.filho {
+    display: flex;
+    align-items: center;
+}
+
+.containerText {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+    margin: 0px;
+}
+
+.list-li{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+a.list-filho {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
