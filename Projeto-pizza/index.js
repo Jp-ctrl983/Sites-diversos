@@ -7,3 +7,4 @@ function toggleCardapio() {
     let cardapio = window.document.getElementById('cardapio');
     cardapio.classList.toggle('hidden');
 }
+
